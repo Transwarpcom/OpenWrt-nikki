@@ -25,8 +25,9 @@ case "$DISTRIB_RELEASE" in
 		branch="SNAPSHOT"
 		;;
 	*)
-		echo "unsupported release: $DISTRIB_RELEASE"
-		exit 1
+		# echo "unsupported release: $DISTRIB_RELEASE"
+		# exit 1
+		branch="SNAPSHOT"
 		;;
 esac
 
